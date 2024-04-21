@@ -87,6 +87,8 @@ function gameStarting() {
     novaDivRow.appendChild(placarDiv2);
     novaDivRow.appendChild(placarDiv3);
 
+    
+
 
     const game = new Game;
     game.startGame();

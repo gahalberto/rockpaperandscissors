@@ -10,11 +10,15 @@
 <body>
     
     <div class="video-background">
-        <video autoplay muted loop>
+        <video autoplay muted loop playsinline>
             <source src="assets/fundo.mp4" type="video/mp4">
-          Your browser does not support the video tag.
+            Your browser does not support the video tag.
         </video>
-      </div>    
+        <div class="fallback-image" style="background-image: url('assets/fundo.jpg');">
+            <!-- Imagem de fallback -->
+        </div>
+    </div>
+      
 
       <div id="overlay" class="overlay"></div>
       <div class="loading-container" id="loadingContainer">
@@ -78,6 +82,13 @@
             </section>
       </main>
 
+      <div class="py-5 text-center container">
+        <div class="row py-lg-5">
+            <div id="reset">
+                <button class="btn btn-dark" style="display: none;">Reiniciar</button>
+              </div>        
+        </div>
+      </div>
       
 
       <script src="https://kit.fontawesome.com/0afe77069d.js" crossorigin="anonymous"></script>    <link rel="stylesheet" href="assets/style.css">

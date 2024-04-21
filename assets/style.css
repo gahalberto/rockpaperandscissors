@@ -16,7 +16,11 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-image: url('/Users/gahalberto/Documents/Projetos/Aulas-JS/papeltesoura/assets/fundo.jpg');
+    background-size: cover; /* para cobrir todo o corpo */
+    background-position: center; /* para centralizar a imagem */
   }
+  
 
   .press-start-2p-regular {
     font-family: "Press Start 2P", system-ui;
@@ -33,9 +37,7 @@ html, body {
     color: red;
 }
 
-.texto-amarelo {
-    color: yellow;
-}
+
 
 .divSpace {
     margin-top: 50px;
