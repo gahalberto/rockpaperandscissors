@@ -16,7 +16,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-image: url('/Users/gahalberto/Documents/Projetos/Aulas-JS/papeltesoura/assets/fundo.jpg');
+    background-image: url('./fundo.jpg');
     background-size: cover; /* para cobrir todo o corpo */
     background-position: center; /* para centralizar a imagem */
   }
