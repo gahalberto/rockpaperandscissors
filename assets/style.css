@@ -12,7 +12,6 @@
     animation: blink 1s ease-in-out;
 }
 
-
 html, body {
     margin: 0;
     padding: 0;
@@ -24,6 +23,23 @@ html, body {
     font-weight: 400;
     font-style: normal;
   }
+
+.branco{
+    color: white;
+    font-size: 10px;
+  }
+
+  .texto-vermelho {
+    color: red;
+}
+
+.texto-amarelo {
+    color: yellow;
+}
+
+.divSpace {
+    margin-top: 50px;
+}
   
   
   .video-background {
@@ -93,3 +109,36 @@ html, body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  
+  .movendo-imagem {
+    transition: transform 0.5s ease;
+  }
+  
+  .movendo-imagem:hover {
+    transform: translateY(-20px); /* Ajuste conforme necessário */
+  }
+  
+  
+  .container {
+    position: relative;
+  }
+  
+  .imagem {
+    position: absolute;
+    animation: mover-e-diminuir 3s forwards;
+  }
+  
+ @keyframes mover-e-diminuir {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+}
+
+  
+  
