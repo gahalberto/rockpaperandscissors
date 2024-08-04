@@ -1,7 +1,3 @@
-Of course! Here is the description in English for your GitHub readme about the Rock, Paper, Scissors game project in HTML, CSS, and JavaScript:
-
----
-
 # Rock, Paper, Scissors Game
 
 Welcome to the Rock, Paper, Scissors game repository! This project is a simple and fun implementation of the classic choice game, developed using HTML, CSS, and JavaScript. It is a great way to practice and showcase fundamental web development skills.
@@ -58,5 +54,3 @@ Contributions are welcome! If you have suggestions for improvements, bug fixes, 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ---
-
-I hope this description helps present your project clearly and professionally on GitHub!
